@@ -4,6 +4,7 @@ export const GlobalStyle = createGlobalStyle`
   :root{
     --title-color: #322153;
     --primary-color: #34cb79;
+    --bg-color:#f0f0f5;
 }
 *{
     margin: 0;
@@ -15,7 +16,7 @@ html {
 }
 
 body{
-    background: #f0f0f5;
+    background: var(--bg-color);
     -webkit-font-smoothing: antialiased;
 }
 
