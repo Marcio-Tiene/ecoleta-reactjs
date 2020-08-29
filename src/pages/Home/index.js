@@ -1,20 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
 
-const Hello = styled.div`
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`;
+import PageHeader from '../../components/PageHeader';
 
 function Home() {
   return (
-    <Hello>
-      <h1>Helo World</h1>
-    </Hello>
+    <>
+      <PageHeader />
+    </>
   );
 }
 
