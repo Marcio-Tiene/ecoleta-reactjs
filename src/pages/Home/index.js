@@ -1,11 +1,16 @@
 import React from 'react';
 
 import PageHeader from '../../components/PageHeader';
+import Button from '../../components/Buton';
+import { Wraper } from '../../components/Wraper/style';
 
 function Home() {
   return (
     <>
-      <PageHeader />
+      <Wraper>
+        <PageHeader />
+        <Button />
+      </Wraper>
     </>
   );
 }
