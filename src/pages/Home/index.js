@@ -1,7 +1,7 @@
 import React from 'react';
 
 import PageHeader from '../../components/PageHeader';
-import Button from '../../components/Buton';
+import Button from '../../components/Button';
 import { Wraper } from '../../components/Wraper/style';
 import { Div, H1, P } from './style';
 

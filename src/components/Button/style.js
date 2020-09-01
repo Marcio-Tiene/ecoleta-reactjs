@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Search from '../../assets/img/search.svg';
 
 export const ButtonSt = styled.a`
   width: 100%;
@@ -14,6 +15,7 @@ export const ButtonSt = styled.a`
 
   background-color: var(--primary-color);
   transition: 400ms;
+  cursor: pointer;
   &:hover,
   &:focus {
     background-color: #2fb86e;
@@ -33,14 +35,11 @@ export const SpanSt = styled.span`
   justify-content: center;
 
   &::after {
-    background-image: url('../../assets/img/search.svg');
+    content: '';
+    background-image: url(${Search});
     width: 20px;
     height: 20px;
   }
-`;
-
-export const Img = styled.img`
-  width: 32px;
 `;
 
 export const Strong = styled.strong`
