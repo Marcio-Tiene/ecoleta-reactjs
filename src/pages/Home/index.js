@@ -1,20 +1,25 @@
 import React from 'react';
-import styled from 'styled-components';
 
-const Hello = styled.div`
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`;
+import PageHeader from '../../components/PageHeader';
+import Button from '../../components/Buton';
+import { Wraper } from '../../components/Wraper/style';
+import { Div, H1, P } from './style';
 
 function Home() {
   return (
-    <Hello>
-      <h1>Helo World</h1>
-    </Hello>
+    <>
+      <Wraper>
+        <PageHeader />
+        <Div>
+          <H1>Seu marketplace de coleta de resíduos</H1>
+          <P>
+            Ajudamos pessoas a encontrarem um ponto de coleta de forma
+            eficiente.
+          </P>
+        </Div>
+        <Button />
+      </Wraper>
+    </>
   );
 }
 

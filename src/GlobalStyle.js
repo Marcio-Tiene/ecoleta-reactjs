@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     --bg-color:#f0f0f5;
 }
 *{
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,11 +17,14 @@ html {
 }
 
 body{
+   
+
     background: var(--bg-color);
     -webkit-font-smoothing: antialiased;
 }
 
 a{
+    color: var(--title-color);
     text-decoration: none;
 
 }
