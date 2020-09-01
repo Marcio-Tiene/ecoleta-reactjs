@@ -21,8 +21,8 @@ export const ButtonSt = styled.a`
 `;
 
 export const SpanSt = styled.span`
-  width: 5vw;
-  height: 5vw;
+  width: 72px;
+  height: 72px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 
@@ -40,7 +40,7 @@ export const SpanSt = styled.span`
 `;
 
 export const Img = styled.img`
-  width: 3vw;
+  width: 32px;
 `;
 
 export const Strong = styled.strong`
