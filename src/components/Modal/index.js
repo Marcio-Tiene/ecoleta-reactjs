@@ -1,11 +1,14 @@
 import React from 'react';
 
-import ModalBlock from './style';
+import { ModalBlock, DivModal } from './style';
+import { DivHeader } from '../PageHeader/style';
 
 function Modal(props) {
   return (
     <ModalBlock active={props.active} onClick={props.onClick}>
-      <h1>Hello World</h1>
+      <DivModal>
+        <h1>Hello World</h1>
+      </DivModal>
     </ModalBlock>
   );
 }

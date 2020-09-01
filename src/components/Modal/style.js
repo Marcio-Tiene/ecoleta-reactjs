@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-const ModalBlock = styled.div`
+export const ModalBlock = styled.div`
   position: absolute;
   z-index: -1;
 
@@ -24,4 +24,13 @@ const ModalBlock = styled.div`
       opacity: 1;
     `}
 `;
-export default ModalBlock;
+export const DivModal = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 20vw;
+  background-color: var(--bg-color);
+  border-radius: 10px;
+`;
