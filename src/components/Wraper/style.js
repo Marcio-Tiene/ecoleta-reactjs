@@ -12,9 +12,7 @@ export const Wraper = styled.div`
   background: url(${BgImg}) no-repeat;
   background-size: 70%;
   background-position: 138% 10vw;
-  /* background-position-x: 138%; */
 
-  /* background-position-y: 10vw; */
   @media (max-width: 940px) {
     background-position: 1800px, 1800px;
 

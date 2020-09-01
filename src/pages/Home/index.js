@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import PageHeader from '../../components/PageHeader';
 import Button from '../../components/Button';
 import { Wraper } from '../../components/Wraper/style';
 import { Div, H1, P } from './style';
+import Modal from '../../components/Modal';
 
 function Home() {
+  const [active, seActive] = useState(false);
+  function HandleModal() {
+    seActive((OldActive) => !OldActive);
+  }
+
   return (
     <>
       <Wraper>
@@ -17,8 +23,9 @@ function Home() {
             eficiente.
           </P>
         </Div>
-        <Button />
+        <Button onClick={HandleModal} />
       </Wraper>
+      <Modal active={active} onClick={HandleModal}></Modal>
     </>
   );
 }
