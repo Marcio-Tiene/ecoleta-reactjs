@@ -7,7 +7,7 @@ import { Div, H1, P } from './style';
 import Modal from '../../components/Modal';
 
 function Home() {
-  const [active, seActive] = useState(true);
+  const [active, seActive] = useState(false);
   function HandleModal() {
     seActive((OldActive) => !OldActive);
   }
